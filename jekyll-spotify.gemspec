@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Jekyll::Spotify::VERSION
   spec.authors       = ["MertcanGokgoz"]
   spec.email         = ["mertcan.gokgoz@gmail.com"]
-  spec.date          = "2016-08-12"
+  spec.date          = "2016-08-13"
   spec.rubygems_version = "2.4.6"
 
-  spec.summary       = %q{Easily output Spotify Embed Player}
+  spec.summary       = %q{Jekyll-Spotify Easily output Spotify Embed Player}
   spec.description   = %q{Easily output Spotify Embed Player}
   spec.homepage      = "https://github.com/MertcanGokgoz/Jekyll-Spotify"
   spec.license       = "MIT"
@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rubocop", "~> 0.42"
 end
