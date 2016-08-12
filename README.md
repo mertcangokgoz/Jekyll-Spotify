@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/jekyll-spotify.svg)](https://badge.fury.io/rb/jekyll-spotify)
+[![Gem Version](https://badge.fury.io/rb/jekyll-spotify.svg)](https://badge.fury.io/rb/jekyll-spotify) [![Build Status](https://travis-ci.org/MertcanGokgoz/Jekyll-Spotify.svg?branch=master)](https://travis-ci.org/MertcanGokgoz/Jekyll-Spotify)
 
 # Jekyll Spotify
 
