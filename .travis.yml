@@ -1,0 +1,20 @@
+os: linux
+language: ruby
+
+rvm:
+- 2.3.1
+- 2.2
+- 1.9.3
+
+before_script: bundle update
+script: "script/test"
+sudo: false
+cache: bundler
+
+notifications:
+  email:
+    recipients:
+    - mertcan.gokgoz@gmail.com
+    - admin@mertcangokgoz.com
+    on_success: never
+    on_failure: always

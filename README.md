@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/jekyll-spotify.svg)](https://badge.fury.io/rb/jekyll-spotify)
+
 # Jekyll Spotify
 
 This Jekyll pluging provides a tag that takes Spotify URI and generates a html snippet to embed player your site.
