@@ -1,3 +1,7 @@
+# v0.0.4
+
+-  Added Chrome versions 64+ `allow="encrypted-media"` for reliable playback
+
 # v0.0.3
 
 - Cleared the code

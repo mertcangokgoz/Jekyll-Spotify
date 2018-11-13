@@ -9,7 +9,7 @@
 #
 #
 # Output: <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3fuNydG9kg2Y09i8Foqq0p"
-#           width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
+#           width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 #
 
 module Jekyll
@@ -29,7 +29,7 @@ module Jekyll
       end
 
       if @id
-        %(<iframe src=\"https://embed.spotify.com/?uri=#{@id}\" width=\"#{@width}\" height=\"#{@height}\" frameborder=\"0\" allowtransparency=\"true\"></iframe>)
+        %(<iframe src=\"https://embed.spotify.com/?uri=#{@id}\" width=\"#{@width}\" height=\"#{@height}\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>)
       else
         %(Error input, expected syntax: {% spotify id [width] [height] %})
       end
